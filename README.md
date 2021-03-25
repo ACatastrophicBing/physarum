@@ -1,3 +1,7 @@
+Taking the Pre-Existing code and just changing it up a bit to allow for me to record hours of it looking cool and swarm like to use it as a background screen for my laptop.
+
+My first time using Go and first time actually getting used to command line and github on linux, so this will definitely take me more time than normal.
+
 # Physarum Transport Networks
 
 ![Example](https://www.michaelfogleman.com/static/physarum/header.png)
