@@ -16,11 +16,11 @@ import (
 )
 
 const (
-	width      = 512
-	height     = 512
+	width      = 1024
+	height     = 1024
 	particles  = 1 << 20
 	blurRadius = 1
-	blurPasses = 2
+	blurPasses = 1
 	zoomFactor = 1
 	scale      = 1
 	gamma      = 1 / 2.2
@@ -211,7 +211,7 @@ func (t *Texture) Draw(window *glfw.Window, data [][]float32) {
 }
 
 func makeModel() *physarum.Model {
-	configs := physarum.RandomConfigs(2 + rand.Intn(4))
+	configs := physarum.RandomConfigs(1)//was 2 + rand.Intn(4)
 	if len(Configs) > 0 {
 		configs = Configs
 	}

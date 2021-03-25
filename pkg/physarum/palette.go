@@ -28,7 +28,12 @@ func (p Palette) Print() {
 	fmt.Println()
 }
 
-var Palettes = []Palette{
+func BlackPalette() Palette{
+	palette := Palettes[8]
+	return(ShuffledPalette(palette)
+}
+
+var Palettes = []Palette{/*
 	Palette{
 		HexColor(0xFA2B31),
 		HexColor(0xFFBF1F),
@@ -84,5 +89,12 @@ var Palettes = []Palette{
 		HexColor(0xFBD506),
 		HexColor(0xA8BF12),
 		HexColor(0x00AAB5),
+	},*/
+	Palette{
+		HexColor(0xFFFFFF),
+		HexColor(0xFA1A1A),
+		HexColor(0x3333FF),
+		HexColor(0x33FFFF),
+		HexColor(0xFFFFFF),
 	},
 }
