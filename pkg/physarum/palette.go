@@ -30,7 +30,7 @@ func (p Palette) Print() {
 
 func BlackPalette() Palette{
 	palette := Palettes[8]
-	return(ShuffledPalette(palette)
+	return(ShuffledPalette(palette))
 }
 
 var Palettes = []Palette{/*
