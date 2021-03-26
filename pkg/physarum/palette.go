@@ -28,6 +28,7 @@ func (p Palette) Print() {
 	fmt.Println()
 }
 
+
 func BlackPalette() Palette{
 	palette := Palettes[rand.Intn(len(Palettes))]
 	return ShuffledPalette(palette)
