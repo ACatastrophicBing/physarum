@@ -29,7 +29,7 @@ func (p Palette) Print() {
 }
 
 func BlackPalette() Palette{
-	palette := Palettes[8]
+	palette := Palettes[rand.Intn(len(Palettes))]
 	return ShuffledPalette(palette)
 }
 
