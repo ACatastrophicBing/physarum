@@ -6,14 +6,14 @@ import (
 )
 
 const (
-	sensorAngleMin      = 0
-	sensorAngleMax      = 120
+	sensorAngleMin      = 4
+	sensorAngleMax      = 180
 	sensorDistanceMin   = 4
 	sensorDistanceMax   = 64
-	rotationAngleMin    = 0
-	rotationAngleMax    = 90
-	stepDistanceMin     = 0.1
-	stepDistanceMax     = 2
+	rotationAngleMin    = 4
+	rotationAngleMax    = 120
+	stepDistanceMin     = 0.7
+	stepDistanceMax     = 3
 	depositionAmountMin = 1
 	depositionAmountMax = 10
 	decayFactorMin      = 0.1
