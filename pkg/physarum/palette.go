@@ -94,8 +94,8 @@ var Palettes = []Palette{/*
 	Palette{
 		HexColor(0xFFFFFF),
 		HexColor(0xFA1A1A),
-		HexColor(0x3333FF),
+		HexColor(0xFF00FF),
 		HexColor(0x33FFFF),
-		HexColor(0xFFFFFF),
+		HexColor(0xFF9900),
 	},
 }
